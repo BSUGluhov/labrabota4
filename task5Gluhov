@@ -1,0 +1,91 @@
+Скрипт запущен Аўт 24 Сак 2020 10:40:07
+Hello user!
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ sudo -i
+[sudo] пароль для user: 
+Hello root!
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# touch letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chown student letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# groupadd visitors
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chgrp visitors letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ls -l
+итого 0
+-rw-r--r-- 1 student visitors 0 Сак 24 10:40 letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod ug+r letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod o-r[Krwx letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# umask
+0022
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# umask -S
+u=rwx,g=rx,o=rx
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# umask 200
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# touch 1.txt 2.txt 3.txt 4.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# sudo chmod 700 1.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod 647 2.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chomod [K[K[K[K[Kmod 344[K[K04 3.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# cho[Kmod 272 4.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ls l
+ls: невозможно получить доступ к 'l': Нет такого файла или каталога
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ls -l
+итого 0
+-rwx------ 1 root    root     0 Сак 24 11:40 [0m[01;32m1.txt[0m
+-rw-r--rwx 1 root    root     0 Сак 24 11:40 [01;32m2.txt[0m
+--wx---r-- 1 root    root     0 Сак 24 11:40 [01;32m3.txt[0m
+--w-rwx-w- 1 root    root     0 Сак 24 11:40 [01;32m4.txt[0m
+-rw-r----- 1 student visitors 0 Сак 24 10:40 letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# sud[K[K[Kchmod u=rwx,g-rwx,o-rwx 1.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod u=rw,g-r,o-rwx 2.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod u =[K[K=rw,g-rwx,[K [K [K,o=r 3.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod u=wx,g-rwx,o=r 3,[K.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod u=wx,g-rwx,o=r 3.txtrw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,o-rwx 2.txt[C[1P[1@=[C[C[C[C[C[1P[1@=[C[C[C[C[C[C[C[C[C
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod u=rw,g=r,o=rwx 2.txt[C[C[1P[C[C[C[C[C[C[C[1@w[1@x[C[C[C[C[C[C[1P 2.txt[1P[1@=[C[1P[C[C[C[1P.txt4.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ls -l
+итого 0
+-rwx------ 1 root    root     0 Сак 24 11:40 [0m[01;32m1.txt[0m
+-rw-r--rwx 1 root    root     0 Сак 24 11:40 [01;32m2.txt[0m
+--wx---r-- 1 root    root     0 Сак 24 11:40 [01;32m3.txt[0m
+--w-rwx-w- 1 root    root     0 Сак 24 11:40 [01;32m4.txt[0m
+-rw-r----- 1 student visitors 0 Сак 24 10:40 letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# 06504426
+06504426: команда не найдена
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# touch 5,[K.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# 
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# touch 6.txt 7.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod 065044[K[K[K[K5 [K 5.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chomod [K[K[K[K[Kmod 044 6.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# chmod 026 7.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# touch 8.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ls -l 8.txt
+-r--rw-rw- 1 root root 0 Сак 24 12:00 8.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# umask 022
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# las [K[K[K[Ka[Kla[Ks -l [K
+итого 0
+-rwx------ 1 root    root     0 Сак 24 11:40 [0m[01;32m1.txt[0m
+-rw-r--rwx 1 root    root     0 Сак 24 11:40 [01;32m2.txt[0m
+--wx---r-- 1 root    root     0 Сак 24 11:40 [01;32m3.txt[0m
+--w-rwx-w- 1 root    root     0 Сак 24 11:40 [01;32m4.txt[0m
+----rw-r-x 1 root    root     0 Сак 24 11:53 [01;32m5.txt[0m
+----r--r-- 1 root    root     0 Сак 24 11:53 6.txt
+-----w-rw- 1 root    root     0 Сак 24 11:53 7.txt
+-r--rw-rw- 1 root    root     0 Сак 24 12:00 8.txt
+-rw-r----- 1 student visitors 0 Сак 24 10:40 letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# dir
+1.txt  2.txt  3.txt  4.txt  5.txt  6.txt  7.txt  8.txt	letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# rm 1/[K.txt 2.txt 3.txt 4.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K 1.txt  2.txt  3.txt  4.txt  5.txt  6.txt  7.txt  8.tx t letter.txt
+]0;root@user-VirtualBox: ~root@user-VirtualBox:~# dir[K[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kc[Kd[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[K d[K[Kc[Kd[Kc[Kd[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kcd[K[Kc[Kd[Kcd[K[Kcd[K[Kexit
+выход
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ dir
+letter.txt   task1Gluhov  task4Gluhov	  timelog2Gluhov  timelog5Gluhov
+README.md    task2Gluhov  task5Gluhov	  timelog3Gluhov  work
+request.txt  task3Gluhov  timelog1Gluhov  timelog4Gluhov  workdir
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ rmdir wo[K[Kworkdir
+rmdir: не удалось удалить 'workdir': Каталог не пуст
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ rn[Km -R workdir
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ rm letter.txt request.txt
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ rm -R work
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ dir
+README.md    task3Gluhov  timelog1Gluhov  timelog4Gluhov
+task1Gluhov  task4Gluhov  timelog2Gluhov  timelog5Gluhov
+task2Gluhov  task5Gluhov  timelog3Gluhov
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ exit
+exit
+
+Скрипт выполнен Аўт 24 Сак 2020 12:07:43

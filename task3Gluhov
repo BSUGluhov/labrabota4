@@ -1,0 +1,23 @@
+Скрипт запущен Пан 16 Сак 2020 12:14:49
+Hello user!
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ cp request.txt workdir
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ mv request.txt request.bak
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ mv request.bak workdir
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ ls -l workdir
+итого 12
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file10.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file1.txt
+-rw-rw-r-- 1 user user   9 Сак 16 12:05 file2.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file3.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file4.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file5.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file6.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file7.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file8.txt
+-rw-rw-r-- 1 user user   0 Сак 16 12:03 file9.txt
+-rw-rw-r-- 1 user user 154 Сак 16 11:54 request.bak
+-rw-rw-r-- 1 user user 154 Сак 16 12:15 request.txt
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ exit
+exit
+
+Скрипт выполнен Пан 16 Сак 2020 12:17:15

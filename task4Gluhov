@@ -1,0 +1,164 @@
+Скрипт запущен Пан 16 Сак 2020 14:43:16
+Hello user!
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ link workdir/request.txtv[K hardlinl[Kk
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ dir
+hardlink     task1Gluhov  task4Gluhov	  timelog3Gluhov
+README.md    task2Gluhov  timelog1Gluhov  timelog4Gluhov
+request.txt  task3Gluhov  timelog2Gluhov  workdir
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ dirlink workdir/request.txt hardlink[K[K[K[K[K[K[K[K[K req.txt
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ dir
+hardlink   request.txt	task3Gluhov	timelog2Gluhov	workdir
+README.md  task1Gluhov	task4Gluhov	timelog3Gluhov
+req.txt    task2Gluhov	timelog1Gluhov	timelog4Gluhov
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ ln -s requet[Kst.[K[K[K[K[K[K[K[Kworkdir/request.txt softlink
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ dir
+hardlink   request.txt	task2Gluhov  timelog1Gluhov  timelog4Gluhov
+README.md  softlink	task3Gluhov  timelog2Gluhov  workdir
+req.txt    task1Gluhov	task4Gluhov  timelog3Gluhov
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ ln -s workdir work
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ cd work;dir
+file10.txt  file2.txt  file4.txt  file6.txt  file8.txt	request.bak
+file1.txt   file3.txt  file5.txt  file7.txt  file9.txt	request.txt
+]0;user@user-VirtualBox: ~/linux/labrabota4/work[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4/work[00m$ cd ..
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ clear
+[3;J[H[2J]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ vim hardlink
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;27r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[27;1H"hardlink" 28L, 154C[>c[27m[23m[m[H[2J[1;1Hfqeofggdf
+sgfhagdfhgdf
+sdfgdfgdf
+gsdfgdf
+vdf
+dfgsdf
+gsdfgs
+dfg
+sdfgsd
+fg
+sdfgd
+fg
+sdf
+gsd
+fg
+sdfgsdfgfgsdf
+gsdg
+df
+gsd
+fg
+d
+fgsdf
+gsd
+fg
+sdf
+gs[27;63H1,1[7CНаверху"hardlink" 28L, 154C[42C   [7C       [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[27;63H1,2[7CНаверху[1;2H[?12l[?25h[?25l[27;65H3[1;3H[?12l[?25h[?25l[27;65H4[1;4H[?12l[?25h[?25l[27;65H5[1;5H[?12l[?25h[?25l[27;65H6[1;6H[?12l[?25h[?25l[27;65H7[1;7H[?12l[?25h[?25l[27;65H8[1;8H[?12l[?25h[?25l[27;65H9[1;9H[?12l[?25h[?25l[27;63H2[2;9H[?12l[?25h[?25l[27;63H3[3;9H[?12l[?25h[?25l[27;63H4,7[4;7H[?12l[?25h[?25l[27;63H5,3[5;3H[?12l[?25h[?25l[27;63H6,6[6;6H[?12l[?25h[?25l[27;63H7[7;6H[?12l[?25h[?25l[27;63H8,3[8;3H[?12l[?25h[?25l[27;63H9,6[9;6H[?12l[?25h[?25l[27;63H10,2[10;2H[?12l[?25h[?25l[27;64H1,5[11;5H[?12l[?25h[?25l[27;64H2,2[12;2H[?12l[?25h[?25l[27;64H3,3[13;3H[?12l[?25h[?25l[27;64H2,2[12;2H[?12l[?25h[?25l[27;64H1,5[11;5H[?12l[?25h[?25l[27;64H0,2[10;2H[?12l[?25h[?25l[27;63H9,6 [9;6H[?12l[?25h[?25l[27;63H8,3[8;3H[?12l[?25h[?25l[27;63H7,6[7;6H[?12l[?25h[?25l[27;63H6[6;6H[?12l[?25h[?25l[27;63H5,3[5;3H[?12l[?25h[?25l[27;63H4,7[4;7H[?12l[?25h[?25l[27;63H3,9[3;9H[?12l[?25h[?25l[27;63H2[2;9H[?12l[?25h[?25l[27;65H10[2;10H[?12l[?25h[?25l[27;63H3,9 [3;9H[?12l[?25h[?25l[27;65H8[3;8H[?12l[?25h[?25l[27;65H7[3;7H[?12l[?25h[?25l[27;65H6[3;6H[?12l[?25h[?25l[27;65H5[3;5H[?12l[?25h[?25l[27;65H6[3;6H[?12l[?25h[?25l[27;65H7[3;7H[?12l[?25h[?25l[27;65H8[3;8H[?12l[?25h[?25l[27;65H9[3;9H[?12l[?25h[?25l[27;1H[1m-- ВСТАВКА --[m[27;14H[K[27;63H3,9[7CНаверху[3;9H[K[3;9H[?12l[?25h[?25lb[27;65H10[3;10H[?12l[?25h[?25lj[27;66H1[3;11H[?12l[?25h[?25ld[27;66H2[3;12H[?12l[?25h[?25lf[27;66H3[3;13H[?12l[?25h[?25l;[27;66H4[3;14H[?12l[?25h[?25lk[27;66H5[3;15H[?12l[?25h[?25l[3;14H[K[27;66H4[3;14H[?12l[?25h[?25l[3;13H[K[27;66H3[3;13H[?12l[?25h[?25l[3;12H[K[27;66H2[3;12H[?12l[?25h[?25l[3;11H[K[27;66H1[3;11H[?12l[?25h[?25l[3;10H[K[27;66H0[3;10H[?12l[?25h[?25l[3;9H[K[27;65H9 [3;9H[?12l[?25h[?25l[3;8H[K[27;65H8[3;8H[?12l[?25h[?25l[3;7H[K[27;65H7[3;7H[?12l[?25h[?25l[3;6H[K[27;65H6[3;6H[?12l[?25h[?25l[3;5H[K[27;65H5[3;5H[?12l[?25h[?25l[3;4H[K[27;65H4[3;4H[?12l[?25h[?25l[3;3H[K[27;65H3[3;3H[?12l[?25h[?25l[3;2H[K[27;65H2[3;2H[?12l[?25h[?25l[3;1H[K[27;65H1[3;1H[?12l[?25h[?25lV[27;65H2[3;2H[?12l[?25h[?25ln[27;65H3[3;3H[?12l[?25h[?25le[27;65H4[3;4H[?12l[?25h[?25ls[27;65H5[3;5H[?12l[?25h[?25le[27;65H6[3;6H[?12l[?25h[?25lm[27;65H7[3;7H[?12l[?25h[?25l[27;65H8[3;8H[?12l[?25h[?25lI[27;65H9[3;9H[?12l[?25h[?25lz[27;65H10[3;10H[?12l[?25h[?25lm[27;66H1[3;11H[?12l[?25h[?25le[27;66H2[3;12H[?12l[?25h[?25lm[27;66H3[3;13H[?12l[?25h[?25l[3;12H[K[27;66H2[3;12H[?12l[?25h[?25ln[27;66H3[3;13H[?12l[?25h[?25le[27;66H4[3;14H[?12l[?25h[?25ln[27;66H5[3;15H[?12l[?25h[?25li[27;66H6[3;16H[?12l[?25h[?25la[27;66H7[3;17H[?12l[?25h[27;1H[K[3;16H[?25l[27;63H3,16      Наверху[3;16H[?12l[?25h[?25l[27;63H[K[27;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"hardlink" 28L, 161C записано
+[?1l>[?12l[?25h[?1049l]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ vim req.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;27r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[27;1H[97m[41mE325: ВНИМАНИЕ[m
+Обнаружен своп-файл с именем ".req.txt.swp"
+[10Cвладелец: user    дата: Mon Mar 16 12:45:48 2020
+[9Cимя файла: ~user/linux/labrabota4/req.txt
+[11Cизменён: ДА
+      пользователь: user  компьютер: user-VirtualBox
+[11Cпроцесс: 2075
+при открытии файла: "req.txt"
+[14Cдата: Mon Mar 16 14:52:45 2020
+[20CБолее СВЕЖИЙ, чем своп-файл!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) Сеанс редактирования этого файла завершён аварийно.
+    В этом случае, используйте команду ":recover" или "vim -r req.txt"
+    для восстановления изменений (см. ":help recovery").
+    Если вы уже выполняли эту операцию, удалите своп-файл ".req.txt.swp"
+    чтобы избежать появления этого сообщения в будущем.
+
+[32mСвоп-файл ".req.txt.swp" уже существует![m
+[32m[O] Открыть для чтения, (E) Редактировать, (R) Восстановить, (D) Удалить, (Q) В[m
+[26;80H[32mы[27;1Hход, (A) Прервать: [?12l[?25h[m[27;1H[K[?25l[27;1H"req.txt" [только для чтения] 28L, 161C[>c[27m[23m[m[H[2J[1;1Hfqeofggdf
+sgfhagdfhgdf
+Vnesem Izmenenia
+gsdfgdf
+vdf
+dfgsdf
+gsdfgs
+dfg
+sdfgsd
+fg
+sdfgd
+fg
+sdf
+gsd
+fg
+sdfgsdfgfgsdf
+gsdg
+df
+gsd
+fg
+d
+fgsdf
+gsd
+fg
+sdf
+gs[27;63H1,1[7CНаверху[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[27;63H[K[27;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE45: Включена опция 'readonly' (добавьте !, чтобы обойти проверку)[m
+[38;5;121mНажмите ENTER или введите команду для продолжения[?12l[?25h[m[1;1H[L[?25l[1;1Hfqeofggdf[27;1H[K[27;63H1,1[7CНаверху[1;1H[?12l[?25h[?25l[27;63H[K[27;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE45: Включена опция 'readonly' (добавьте !, чтобы обойти проверку)[m
+[38;5;121mНажмите ENTER или введите команду для продолжения[?12l[?25h[m[1;1H[L[?25l[1;1Hfqeofggdf[27;1H[K[27;63H1,1[7CНаверху[1;1H[?12l[?25h[?25l[27;63H[K[27;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[27;1H[K[27;1H[?1l>[?12l[?25h[?1049l]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ cd workdir
+]0;user@user-VirtualBox: ~/linux/labrabota4/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4/workdir[00m$ touch big.txt
+]0;user@user-VirtualBox: ~/linux/labrabota4/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4/workdir[00m$ cd ..
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ linl[Kk workdir/big.txt b[Khardbig
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ ln -s workdir/big,[K.txt l[Ksoftbig
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ ls -li
+итого 76
+545285 -rw-rw-r-- 2 user user     0 Сак 16 14:56 hardbig
+545302 -rw-rw-r-- 3 user user   161 Сак 16 14:52 hardlink
+545283 -rw-rw-r-- 1 user user    12 Сак 16 11:51 README.md
+545302 -rw-rw-r-- 3 user user   161 Сак 16 14:52 req.txt
+545304 -rw-rw-r-- 1 user user   193 Сак 16 14:39 request.txt
+546245 lrwxrwxrwx 1 user user    15 Сак 16 14:57 [0m[01;36msoftbig[0m -> workdir/big.txt
+546242 lrwxrwxrwx 1 user user    19 Сак 16 14:46 [01;36msoftlink[0m -> workdir/request.txt
+544443 -rw-rw-r-- 1 user user 16000 Сак 16 14:42 task1Gluhov
+545287 -rw-rw-r-- 1 user user  4483 Сак 16 12:06 task2Gluhov
+545300 -rw-rw-r-- 1 user user  1465 Сак 16 12:17 task3Gluhov
+545303 -rw-rw-r-- 1 user user  8192 Сак 16 14:53 task4Gluhov
+545284 -rw-rw-r-- 1 user user  5388 Сак 16 14:42 timelog1Gluhov
+545288 -rw-rw-r-- 1 user user  2015 Сак 16 12:06 timelog2Gluhov
+545301 -rw-rw-r-- 1 user user  1201 Сак 16 12:17 timelog3Gluhov
+545306 -rw-rw-r-- 1 user user  4096 Сак 16 14:56 timelog4Gluhov
+546243 lrwxrwxrwx 1 user user     7 Сак 16 14:47 [01;36mwork[0m -> [01;34mworkdir[0m
+545289 drwxrwxr-x 2 user user  4096 Сак 16 14:56 [01;34mworkdir[0m
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ cd workdir
+]0;user@user-VirtualBox: ~/linux/labrabota4/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4/workdir[00m$ ls -i big.txt
+545285 big.txt
+]0;user@user-VirtualBox: ~/linux/labrabota4/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4/workdir[00m$ A[Kdir
+big.txt     file2.txt  file5.txt  file8.txt    request.txt
+file10.txt  file3.txt  file6.txt  file9.txt
+file1.txt   file4.txt  file7.txt  request.bak
+]0;user@user-VirtualBox: ~/linux/labrabota4/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4/workdir[00m$ cd ..
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ dir
+hardbig    req.txt	softlink     task3Gluhov     timelog2Gluhov  work
+hardlink   request.txt	task1Gluhov  task4Gluhov     timelog3Gluhov  workdir
+README.md  softbig	task2Gluhov  timelog1Gluhov  timelog4Gluhov
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlink hardbig softbig
+unlink: лишний операнд «softbig»
+По команде «unlink --help» можно получить дополнительную информацию.
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlink hardbig softbig[Kunlink --help
+Использование: unlink ФАЙЛ
+       или:    unlink КЛЮЧ
+Вызывает функцию unlink для удаления указанного ФАЙЛА.
+
+      --help     показать эту справку и выйти
+      --version  показать информацию о версии и выйти
+
+Оперативная справка GNU coreutils: <http://www.gnu.org/software/coreutils/>
+Об ошибках в переводе сообщений «unlink» сообщайте по адресу <gnu@mx.ru>
+Полная документация: <http://www.gnu.org/software/coreutils/unlink>
+или доступная локально: info '(coreutils) unlink invocation'
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlink --help[Khardbig softbig[K[K[K[K[K[K[K
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlink softbig
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlink hardlink
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlinl softlink
+Команда 'unlinl' не найдена, возможно вы имели в виду:
+ Команда 'unlink' из пакета 'coreutils' (main)
+unlinl: команда не найдена
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlinl softlink[K[K[K[K[K[K[K[K[K[K[K[Kink softlink
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ unlink req.txt
+]0;user@user-VirtualBox: ~/linux/labrabota4[01;32muser@user-VirtualBox[00m:[01;34m~/linux/labrabota4[00m$ ext[Kit
+exit
+
+Скрипт выполнен Пан 16 Сак 2020 15:29:10
